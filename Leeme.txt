@@ -1,0 +1,12 @@
+A continuación los datos para iniciar sesión con los usuarios preestablecidos
+en el sistema (Admin y Docente)
+
+Admin:
+Usuario (Correo): admin@ceciliazaban.com
+Contraseña: admin123
+
+
+
+Docente:
+Usuario (Correo): docente1@ceciliazaban.com
+Contraseña: 12345678

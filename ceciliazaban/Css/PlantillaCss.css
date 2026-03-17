@@ -1,0 +1,60 @@
+    body {
+      background-color: #dee2e6;
+    }
+    header {
+      background-color: #172b4d;
+      color: white;
+      padding: 20px;
+    }
+    .imagen {
+      max-width: 80%;
+      height: auto;
+      border-radius: 15px;
+    }
+    .circle {
+      width: 80%;
+      height: 80%;
+      border-radius: 50%;
+      overflow: hidden;
+    }
+    .circle img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    /* Estilos adicionales para el aside */
+    .offcanvas {
+      border-radius: 15px; /* Bordes redondeados */
+      margin: 2%;
+    }
+    /* Estilo personalizado para el botón */
+    .btn-custom {
+      background-color: white; /* Color de fondo blanco */
+      color: #172b4d; /* Color del texto */
+      border: none; /* Sin borde */
+    }
+
+    .list-unstyled{
+      padding: 8px 0; /* Agrega relleno vertical */
+  }
+  
+  .list-unstyled li a{
+      color: #000000; /* Color de los enlaces (blanco) */
+      text-decoration: none; /* Elimina el subrayado */
+      padding: 5px 10px; /* Agrega relleno a los enlaces */
+      margin: 0 10px; /* Agrega márgenes a los enlaces */
+      transition: background-color 0.3s ease; /* Agrega una transición suave */
+      border-radius: 0px 50px 50px 0px;
+  }
+  
+  .list-unstyled li a:hover{
+      background-color: #dfe3e6; /* Azul más claro al pasar el cursor */
+       color: black;
+  }
+
+/* Estilos para todos los campos que tienen el atributo "required" */
+[required] + label::after {
+  content: "*"; /* Añade el asterisco */
+  color: red;   /* Establece el color en rojo */
+  margin-left: 5px; /* Añade un pequeño espacio a la izquierda */
+}
